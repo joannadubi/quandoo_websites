@@ -1,3 +1,7 @@
+body {
+
+}
+
 .navbar-brand>img {
 	max-width: 30px;
 }
@@ -10,8 +14,23 @@
 	margin-bottom: 0;
 }
 
-#about_us, #about_us_2 {
+section {
 	padding: 2% 2%;
+	margin: 2% 5%;
+}
+
+h1 {
+	padding-bottom: 2%;
+}
+
+footer {
+	background-color: #333;
+	padding: 1%;
+	color: #fff;
+}
+
+.img-inbox {
+	width: 100%;
 }
 
 @media (max-width: 460px) {
