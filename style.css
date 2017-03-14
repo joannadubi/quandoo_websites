@@ -13,3 +13,44 @@
 #about_us, #about_us_2 {
 	padding: 2% 2%;
 }
+
+@media (max-width: 460px) {
+	.item .active, .item {
+	height: 150px;
+    margin-top: 0px;
+    //overflow: hidden;
+	}
+}
+
+@media (min-width: 461px) {
+	.item .active, .item {
+	max-height: 250px;
+    margin-top: -50px;
+	}
+}
+
+@media (min-width: 768px) {
+	.item .active, .item {
+	max-height: 400px;
+    margin-top: -50px;
+	}
+}
+
+@media (min-width: 992px) {
+	.item .active, .item {
+	max-height: 500px;
+    margin-top: -50px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.item .active, .item {
+	max-height: 600px;
+    margin-top: -100px;
+	}
+} 
+
+
+
+
