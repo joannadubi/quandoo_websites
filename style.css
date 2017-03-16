@@ -64,6 +64,10 @@ footer {
 	width: 100%;
 }
 
+.bg-pics {
+	background-image: url('burger_02.jpg');
+}
+
 @media (max-width: 460px) {
 	.item .active, .item {
 	height: 150px;
