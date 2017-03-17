@@ -21,6 +21,14 @@ footer {
 	background-color: #fff;
 }
 
+.padding-top {
+	padding-top: 3%;
+}
+
+.padding-bottom {
+	padding-bottom: 2%;
+}
+
 .res_wrap {
 	position: absolute;
     z-index: 50;
