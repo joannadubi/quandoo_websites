@@ -17,6 +17,11 @@ footer {
 	color: #fff;
 }
 
+.tab-content {
+	background-color: white;
+    padding: 2%;
+}
+
 #main-content {
 	background-color: #fff;
 }

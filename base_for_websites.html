@@ -167,7 +167,7 @@
 			
 		</section>
 	</div>
-
+<!-- Menu section with buttons -->
 	<section id="menu" class="container-fluid bg-pics">
 			<div class="container-fluid">
 				<div class="row col-md-12 text-center">
@@ -213,7 +213,8 @@
 			</div>
 	</section>
 
-	<section id="menu" class="container-fluid bg-pics">
+<!-- Menu section with tabs and dropdown -->
+	<section id="menu-tabs" class="container-fluid bg-pics">
 			<div class="container-fluid">
 				<div class="row col-md-12 text-center">
 					<h1>Menu</h1>
@@ -223,21 +224,36 @@
 				<div>
 
 				  <!-- Nav tabs -->
-				  <ul class="nav nav-tabs" role="tablist">
-				    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-				    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-				    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-				    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-				  </ul>
+				  <div>
+					  <ul class="nav nav-tabs" role="tablist">
+					    <li role="presentation" class="active"><a href="#starters" aria-controls="starters" role="tab" data-toggle="tab">Starters</a></li>
+					    <li role="presentation"><a href="#main-dishes" aria-controls="main-dishes" role="tab" data-toggle="tab">Main dishes</a></li>
+					    <li role="presentation"><a href="#kids-menu" aria-controls="kids-menu" role="tab" data-toggle="tab">Kids menu</a></li>
+					    <li role="presentation"><a href="#desserts" aria-controls="desserts" role="tab" data-toggle="tab">Desserts</a></li>
+					    <li class="dropdown">
+					        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Drinks <b class="caret"></b></a>
+					         	<ul class="dropdown-menu">
+					                <li><a href="#wine" role="tab" data-toggle="tab">Wine</a></li>
+					                <li><a href="#cocktails" role="tab" data-toggle="tab">Cocktails</a></li>
+					                <li><a href="#alcoholfree" role="tab" data-toggle="tab">Alcohol-free</a></li>
+					            </ul>
+					    </li> 
+					  </ul>
+				  </div>
 
 				  <!-- Tab panes -->
 				  <div class="tab-content">
-				    <div role="tabpanel" class="tab-pane active" id="home">Here will be extra text if merchant require: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis in lectus non malesuada. In hac habitasse platea dictumst.</div>
-				    <div role="tabpanel" class="tab-pane" id="profile">Here will be extra text if merchant require: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis in lectus non malesuada. In hac habitasse platea dictumst.</div>
-				    <div role="tabpanel" class="tab-pane" id="messages">Here will be extra text if merchant require: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis in lectus non malesuada. In hac habitasse platea dictumst.</div>
-				    <div role="tabpanel" class="tab-pane" id="settings">Here will be extra text if merchant require: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis in lectus non malesuada. In hac habitasse platea dictumst.</div>
-				  </div>
+				    <div role="tabpanel" class="tab-pane active" id="starters">Here will be extra text if merchant require: Starters Starters Starters Starters Starters Starters Starters Starters Starters Starters Starters Starters</div>
+				    <div role="tabpanel" class="tab-pane" id="main-dishes">Here will be extra text if merchant require: Main dishes Main dishes Main dishes Main dishes Main dishes Main dishes Main dishes Main dishes Main dishes Main dishes </div>
 
+				    <div role="tabpanel" class="tab-pane" id="kids-menu">Kids menu Kids menu Kids menu Kids menu Kids menu Kids menu Kids menu Kids menu Kids menu</div>
+
+				    <div role="tabpanel" class="tab-pane" id="desserts">Desserts Desserts Desserts Desserts Desserts Desserts</div>
+
+				    <div role="tabpanel" class="tab-pane" id="wine">wine wine wine wine wine wine wine wine wine wine wine</div>
+  					<div role="tabpanel" class="tab-pane" id="cocktails">cocktails cocktails cocktails cocktails cocktails cocktails</div>
+  					<div role="tabpanel" class="tab-pane" id="alcoholfree">alcoholfree alcoholfree alcoholfree alcoholfree alcoholfree</div>
+				  </div>
 				</div>
 			</div>
 	</section>
